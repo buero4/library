@@ -55,7 +55,7 @@ const initMap = function(domNodeId, mapStyle, googleMapsPin) {
 
   GoogleMapsLoader.LANGUAGE = 'de';
   GoogleMapsLoader.REGION = 'CH';
-  GoogleMapsLoader.KEY = 'AIzaSyAFMLaXF7CDtc2cY4-VqX-xVKhfb8tZS7o';
+  GoogleMapsLoader.KEY = '';
   GoogleMapsLoader.VERSION = '3.34';
   GoogleMapsLoader.load(function(google) {
     let map = new google.maps.Map(document.getElementById(domNodeId), {
