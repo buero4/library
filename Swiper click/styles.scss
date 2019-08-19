@@ -1,0 +1,9 @@
+.gallery-wrapper {
+  &.cursor-is-left {
+    cursor: url("../images/gallery-cursor-left.svg"), auto !important;
+  }
+
+  &.cursor-is-right {
+    cursor: url("../images/gallery-cursor-right.svg"), auto !important;
+  }
+}
