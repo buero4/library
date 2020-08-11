@@ -3,6 +3,6 @@
 <img
   class="generic-margin-bottom"
   src="{!! wp_get_attachment_image_src($person['portraitbild']['ID'], 'large')[0] !!}"
-  data-srcset="{!! wp_get_attachment_image_srcset($person['portraitbild']['ID'], 'large') !!}"
+  srcset="{!! wp_get_attachment_image_srcset($person['portraitbild']['ID'], 'large') !!}"
   sizes="(max-width: 768px) 100vw,50vw"
 />
